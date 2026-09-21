@@ -20,16 +20,50 @@
 
 ## 🔹 About Me
 
-```yaml
-education:  B.Tech Artificial Intelligence & Data Science
-college:    St. Joseph's College of Engineering, Chennai
-focus:      Large Language Models · RAG pipelines · Chatbots
-role:       HCLTech Campus Ambassador
-internships: 3
-status:     open to internships, freelance work & collaborations
-```
+I build intelligent systems that sit close to real users — retrieval-augmented assistants, conversational interfaces, and the data work that keeps them honest.
 
-I build intelligent systems that sit close to real users — retrieval-augmented assistants, conversational interfaces, and the data work that keeps them honest. Three internships across AI/ML and core engineering, a handful of hackathon wins, and a standing habit of chasing whatever just dropped in generative AI.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎓 Education**
+B.Tech, Artificial Intelligence & Data Science
+St. Joseph's College of Engineering, Chennai
+
+**🎯 Focus**
+Large Language Models · RAG pipelines · Chatbots
+
+</td>
+<td width="50%" valign="top">
+
+**🎖️ Role**
+HCLTech Campus Ambassador
+
+**💼 Track record**
+3 internships across AI/ML and core engineering
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🟦 Currently exploring →</b></summary>
+<br/>
+
+- Retrieval strategies for RAG beyond naive top-k
+- Agentic workflows and tool-calling with LLMs
+- Evaluation methods for chatbot response quality
+- Whatever just shipped in generative AI this week
+
+</details>
+
+<details>
+<summary><b>🟦 A bit more about how I work →</b></summary>
+<br/>
+
+I move between the applied and the exploratory — shipping a working prototype fast, then going back to understand why it actually works. Hackathons taught me the first half; internships across AI/ML and core engineering taught me the second.
+
+</details>
 
 ---
 
@@ -87,13 +121,29 @@ I build intelligent systems that sit close to real users — retrieval-augmented
 
 ## 🔹 Open To
 
-```
-> internship opportunities
-> freelance projects
-> collaborations on AI/ML and data science work
-```
+<div align="center">
 
-**Reach me:** [LinkedIn](https://www.linkedin.com/in/mohammed-thameem-sulthan-m-01648a328/) · [thameem.s.ads@gmail.com](mailto:thameem.s.ads@gmail.com) · Chennai, India
+<img src="https://img.shields.io/badge/🎯_INTERNSHIPS-0B0E14?style=flat-square&labelColor=0B0E14&color=00A8FF" alt="Internships"/>
+<img src="https://img.shields.io/badge/💻_FREELANCE_PROJECTS-0B0E14?style=flat-square&labelColor=0B0E14&color=00A8FF" alt="Freelance"/>
+<img src="https://img.shields.io/badge/🤝_AI/ML_COLLABORATIONS-0B0E14?style=flat-square&labelColor=0B0E14&color=00A8FF" alt="Collaborations"/>
+
+</div>
+
+<details>
+<summary align="center"><b>📬 Get in touch →</b></summary>
+<br/>
+
+<div align="center">
+
+| | |
+| :-- | :-- |
+| **LinkedIn** | [Mohammed Thameem Sulthan M](https://www.linkedin.com/in/mohammed-thameem-sulthan-m-01648a328/) |
+| **Email** | [thameem.s.ads@gmail.com](mailto:thameem.s.ads@gmail.com) |
+| **Location** | Chennai, India |
+
+</div>
+
+</details>
 
 <div align="center">
 
