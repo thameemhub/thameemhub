@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Mohammed Thameem Sulthan M — AI & Data Science Engineer" width="100%"/>
+<img src="https://raw.githubusercontent.com/thameemhub/thameemhub/main/assets/banner.svg" alt="Mohammed Thameem Sulthan M — AI & Data Science Engineer" width="100%"/>
 
 <br/>
 
