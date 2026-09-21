@@ -12,7 +12,7 @@
 <a href="mailto:thameem.s.ads@gmail.com"><img src="https://img.shields.io/badge/EMAIL-00A8FF?style=flat-square&logo=gmail&logoColor=0B0E14&labelColor=0B0E14&color=00A8FF" alt="Email"/></a>
 <a href="https://github.com/"><img src="https://img.shields.io/badge/GITHUB-00A8FF?style=flat-square&logo=github&logoColor=0B0E14&labelColor=0B0E14&color=00A8FF" alt="GitHub"/></a>
 <img src="https://img.shields.io/badge/CHENNAI,_INDIA-0B0E14?style=flat-square&logo=googlemaps&logoColor=00A8FF&labelColor=0B0E14" alt="Location"/>
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=00A8FF&label=PROFILE+VIEWS" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=thameemhub&style=flat-square&color=00A8FF&label=PROFILE+VIEWS" alt="views"/>
 
 </div>
 
@@ -112,8 +112,8 @@ I move between the applied and the exploratory — shipping a working prototype 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&bg_color=0B0E14&title_color=00A8FF&icon_color=00A8FF&text_color=C9D4DE" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&bg_color=0B0E14&title_color=00A8FF&text_color=C9D4DE" alt="languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=thameemhub&show_icons=true&hide_border=true&bg_color=0B0E14&title_color=00A8FF&icon_color=00A8FF&text_color=C9D4DE" alt="stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thameemhub&layout=compact&hide_border=true&bg_color=0B0E14&title_color=00A8FF&text_color=C9D4DE" alt="languages"/>
 
 </div>
 
