@@ -90,7 +90,7 @@ I move between the applied and the exploratory — shipping a working prototype 
 
 | Role | Organisation | Duration | What I did |
 | :--- | :--- | :--- | :--- |
-| **AI Intern** | CodeWorks Pro | — | Applied AI projects and model development |
+| **AI Intern** | CodeWorks Pro | 15 days | Applied AI projects and model development |
 | **AI & ML Intern** | Kaaspro Enterprises | 1 month | ML workflows and data-driven problem solving |
 | **Intern, Drone Sector** | Kothari Industrial Corporation Ltd | 10 days | Drone technology and its engineering applications |
 
