@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08090d"><meta name="description" content="Mohammed Thameem Sulthan M. explores few-shot vision, retrieval-augmented systems and applied machine learning.">
+<title>Intelligence Lab · Mohammed Thameem Sulthan M.</title><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="style.css"><script src="lab.js" defer></script></head>
+<body><a class="skip" href="#projects">Skip to projects</a><div class="wrap">
+<header><a class="brand" href="./"><img alt="" width="32" height="32" src="favicon.svg">The Web of Intelligence</a>
+<nav aria-label="Main"><a href="#projects">Projects</a><a href="#contact">Contact</a><a href="https://github.com/thameemhub" aria-label="Thameem on GitHub">GitHub</a></nav></header>
+<main><section class="hero" aria-labelledby="hero-title"><div class="intro">
+<p class="kicker"><span></span>AI &amp; Data Science Engineer</p>
+<h1 id="hero-title">Intelligence<br><em>Lab.</em></h1>
+<p class="byline">Mohammed Thameem Sulthan M.</p><p class="description">I study what happens when a detector has only a handful of labels, or a language model has to point to the page that supports its answer.</p>
+<a class="cta" href="#projects">Explore the projects</a></div>
+<div class="instrument" aria-label="Interactive project map"><div class="art"><img src="core.svg" alt="A faceted crimson insignia suspended inside a web of linked nodes." width="480" height="480"></div>
+<div class="nodes"><a class="orbit-node n0" href="#bottle" aria-label="Inspect Bottle defect detection">Bottle defects</a><a class="orbit-node n1" href="#finance" aria-label="Inspect Financial report RAG">Report RAG</a><a class="orbit-node n2" href="#tamil" aria-label="Inspect Tamil handwriting">Tamil script</a><a class="orbit-node n3" href="#face" aria-label="Inspect Face verification">Verification</a><a class="orbit-node n4" href="#violet" aria-label="Inspect Violet URL screening">URL screening</a><a class="orbit-node n5" href="#weather" aria-label="Inspect Delhi temperature forecast">Forecasting</a></div></div></section>
+<section class="catalog" id="projects" aria-labelledby="project-heading"><div class="section-heading"><h2 id="project-heading">Selected projects</h2><span class="micro">Research &amp; engineering</span></div>
+<details class="project" id="bottle">
+      <summary><span class="project-name">Bottle defect detection</span><span class="domain">Computer vision</span></summary>
+      <div class="case"><h3>Learning rare defects from a few labels.</h3><p>A production line can have plenty of bottle images and very few examples of a missing cap or a crumpled bottle. These notebooks explore how a detector adapts when only a handful of novel-class boxes are labeled.</p>
+      <ol class="pipeline" aria-label="Methodology"><li>Bottle images</li><li>Base detector</li><li>Few-shot adaptation</li><li>Defect boxes</li></ol>
+      <p>The Extreme R-CNN notebook trains on base classes first, then adapts its detector with few-shot support. Separate heads learn class embeddings and box coordinates. Evaluation tracks AP50 for both base and novel defects to expose forgetting.</p>
+      <p class="tools">Python · PyTorch · Detectron2 · OpenCV</p><div class="links"><a href="https://github.com/thameemhub/Plastic_Bottle_Defect_Detection_By-FewShot-Object_Detection">Repository</a>
+      <a href="https://github.com/thameemhub/Plastic_Bottle_Defect_Detection_By-FewShot-Object_Detection/blob/main/Extreme_RCNN.ipynb">Inspect the experiment</a></div></div>
+    </details>
+<details class="project" id="finance">
+      <summary><span class="project-name">Financial report RAG</span><span class="domain">Language systems</span></summary>
+      <div class="case"><h3>Trace an answer back to the PDF page.</h3><p>Finding a figure in a quarterly report is only half the job. A reader also needs the page it came from. This assistant retrieves report passages and attaches their file and page references to its answer.</p>
+      <ol class="pipeline" aria-label="Methodology"><li>Report pages</li><li>ChromaDB</li><li>Evidence gate</li><li>Cited answer</li></ol>
+      <p>PyMuPDF extracts pages, the ingestion pipeline chunks and embeds them, and ChromaDB retrieves candidates. A confidence gate checks the evidence before a Groq-hosted model generates a response. Follow-up questions are rewritten using session context.</p>
+      <p class="tools">Python · PyMuPDF · ChromaDB · Groq · Streamlit</p><div class="links"><a href="https://github.com/thameemhub/FINANCE_RAG_CHATBOT">Repository</a>
+      <a href="https://github.com/thameemhub/FINANCE_RAG_CHATBOT/blob/main/src/pipeline.py">Trace the pipeline</a></div></div>
+    </details>
+<details class="project" id="tamil">
+      <summary><span class="project-name">Tamil handwriting</span><span class="domain">Few-shot learning</span></summary>
+      <div class="case"><h3>Recognizing letters from support examples.</h3><p>Tamil characters can differ by a small loop, stroke, or modifier. This project studies how many labeled examples a recognizer needs for a letter it has never seen during training.</p>
+      <ol class="pipeline" aria-label="Methodology"><li>Letter crops</li><li>Conv4 encoder</li><li>Class prototypes</li><li>Nearest class</li></ol>
+      <p>The project compares episodic learners and supervised baselines, then separates known-letter performance from generalization to held-out letters. Its report also tests how recognition changes when support and query images come from different sources.</p><p class="result">The repository reports 92.89% ± 3.37% accuracy on 5-way, 5-shot episodes drawn from 16 held-out letters.</p>
+      <p class="tools">Python · PyTorch · Torchvision · OpenCV</p><div class="links"><a href="https://github.com/thameemhub/Tamil_HandWritten_Character_Recognition">Repository</a>
+      <a href="https://github.com/thameemhub/Tamil_HandWritten_Character_Recognition/blob/main/reports/model_comparison.md">Read the evaluation</a></div></div>
+    </details>
+<details class="project" id="face">
+      <summary><span class="project-name">Face verification</span><span class="domain">Computer vision</span></summary>
+      <div class="case"><h3>Comparing a live capture with an ID portrait.</h3><p>An interview identity check needs to compare two faces captured under different conditions. This Streamlit prototype guides a participant through a head-pose prompt and compares their image with a portrait on an identity document.</p>
+      <ol class="pipeline" aria-label="Methodology"><li>ID + capture</li><li>Face detection</li><li>Embeddings</li><li>Similarity</li></ol>
+      <p>OpenCV prepares the images. InsightFace detects the faces and produces embeddings. The app compares those vectors with cosine similarity and displays the outcome alongside the pose check.</p>
+      <p class="tools">Python · InsightFace · OpenCV · NumPy · Streamlit</p><div class="links"><a href="https://github.com/thameemhub/FACE-VERIFICATION-SYSTEM---COMPUTER-VISION">Repository</a>
+      <a href="https://github.com/thameemhub/FACE-VERIFICATION-SYSTEM---COMPUTER-VISION/blob/main/face_verification.py">Inspect the verification code</a></div></div>
+    </details>
+<details class="project" id="violet">
+      <summary><span class="project-name">Violet URL screening</span><span class="domain">Applied ML</span></summary>
+      <div class="case"><h3>Combining URL features with network context.</h3><p>A suspicious link gives a reviewer little context on its own. Violet combines URL features with IP intelligence to surface phishing risk across an Android client and a web dashboard.</p>
+      <ol class="pipeline" aria-label="Methodology"><li>URL</li><li>Feature extraction</li><li>Risk scoring</li><li>Review</li></ol>
+      <p>The project pairs an XGBoost classifier with lookup signals such as network ownership and reputation. A FastAPI service returns the assessment to its clients.</p>
+      <p class="tools">Python · XGBoost · FastAPI · Kotlin · React</p><div class="links"><a href="https://github.com/thameemhub/Violet_App">Repository</a>
+      <a href="https://github.com/thameemhub/Violet_App/blob/main/README.md">Read the system design</a></div></div>
+    </details>
+<details class="project" id="weather">
+      <summary><span class="project-name">Delhi temperature forecast</span><span class="domain">Applied ML</span></summary>
+      <div class="case"><h3>Following a forecast beyond the next hour.</h3><p>A single next-hour estimate hides how forecasting errors accumulate. This notebook studies hourly Delhi weather and rolls its one-step temperature predictions forward for a 24-hour view.</p>
+      <ol class="pipeline" aria-label="Methodology"><li>Weather records</li><li>60-step windows</li><li>Stacked LSTM</li><li>Forecast</li></ol>
+      <p>The notebook cleans and scales six weather variables, builds 60-step input windows, and trains a stacked LSTM. Each recursive step updates temperature while carrying the last observed non-temperature inputs forward.</p>
+      <p class="tools">Python · TensorFlow/Keras · pandas · scikit-learn</p><div class="links"><a href="https://github.com/thameemhub/WEATHER_PREDICTION_LSTM">Repository</a>
+      <a href="https://github.com/thameemhub/WEATHER_PREDICTION_LSTM/blob/main/weather-lstm.ipynb">Open the forecasting notebook</a></div></div>
+    </details></section>
+<section class="contact" id="contact"><div><h2>Work with me</h2><p>Based in Chennai, India. Open to AI/ML internships, research collaborations, generative AI projects, and freelance development.</p></div>
+<div class="links"><a href="mailto:thameem.s.ads@gmail.com">Email Thameem</a><a href="https://www.linkedin.com/in/mohammed-thameem-sulthan-m-01648a328/">LinkedIn</a></div></section></main>
+<footer><span>Mohammed Thameem Sulthan M.</span><span>Learning Now and Leading Next!</span></footer>
+</div></body></html>
