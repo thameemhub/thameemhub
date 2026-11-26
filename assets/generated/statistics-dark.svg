@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="385" viewBox="0 0 600 385" role="img"><title>Repository statistics, calendar streaks, languages and recent pushes</title>
+<rect width="600" height="385" rx="12" fill="#08090D"/>
+<text x="22" y="32" fill="#00D9FF" font-family="Consolas,monospace" font-weight="700" font-size="15">PUBLIC REPOSITORIES</text>
+<text x="338" y="32" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="14">2026-11-26 UTC</text>
+<text x="22" y="83" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="700" font-size="36">28</text>
+<text x="22" y="108" fill="#A4ACBA" font-family="Arial,sans-serif" font-weight="400" font-size="16">Owned repos</text>
+<text x="166" y="83" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="700" font-size="36">78</text>
+<text x="166" y="108" fill="#A4ACBA" font-family="Arial,sans-serif" font-weight="400" font-size="16">Stars</text>
+<text x="310" y="83" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="700" font-size="36">2</text>
+<text x="310" y="108" fill="#A4ACBA" font-family="Arial,sans-serif" font-weight="400" font-size="16">Streak / days</text>
+<text x="454" y="83" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="700" font-size="36">4</text>
+<text x="454" y="108" fill="#A4ACBA" font-family="Arial,sans-serif" font-weight="400" font-size="16">Best / days</text>
+<path d="M22 129H578" stroke="#242736"/>
+<text x="22" y="157" fill="#00D9FF" font-family="Consolas,monospace" font-weight="400" font-size="14">LANGUAGES BY CODE SIZE</text>
+<text x="22" y="187" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="400" font-size="16">Python</text>
+<rect x="222" y="177" width="259" height="6" rx="3" fill="#242736"/>
+<rect x="222" y="177" width="196.88" height="6" rx="3" fill="#E42B55"/>
+<text x="500" y="187" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">76.0%</text>
+<text x="22" y="211" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="400" font-size="16">C++</text>
+<rect x="222" y="201" width="259" height="6" rx="3" fill="#242736"/>
+<rect x="222" y="201" width="21.18" height="6" rx="3" fill="#E42B55"/>
+<text x="500" y="211" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">8.2%</text>
+<text x="22" y="235" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="400" font-size="16">JavaScript</text>
+<rect x="222" y="225" width="259" height="6" rx="3" fill="#242736"/>
+<rect x="222" y="225" width="18.52" height="6" rx="3" fill="#E42B55"/>
+<text x="500" y="235" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">7.1%</text>
+<text x="22" y="259" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="400" font-size="16">Cython</text>
+<rect x="222" y="249" width="259" height="6" rx="3" fill="#242736"/>
+<rect x="222" y="249" width="14.55" height="6" rx="3" fill="#E42B55"/>
+<text x="500" y="259" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">5.6%</text>
+<text x="22" y="308" fill="#00D9FF" font-family="Consolas,monospace" font-weight="400" font-size="14">RECENTLY PUSHED</text>
+<text x="22" y="338" fill="#F4F6FC" font-family="Consolas,monospace" font-weight="400" font-size="15">Tamil_Character_Recognition_DSA_Contri…</text>
+<text x="473" y="338" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="14">2026-11-26</text>
+<text x="22" y="362" fill="#F4F6FC" font-family="Consolas,monospace" font-weight="400" font-size="15">School_Shooting_Game</text>
+<text x="473" y="362" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="14">2026-11-18</text>
+</svg>
