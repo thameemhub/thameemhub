@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="129" viewBox="0 0 360 129" role="img">
+<title>Delhi temperature forecast</title>
+<defs>
+<linearGradient id="ground" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#16151F"/><stop offset=".55" stop-color="#0A0A10"/><stop offset="1" stop-color="#171019"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#BA1038" stop-opacity=".55"/><stop offset=".62" stop-color="#68102D" stop-opacity=".28"/><stop offset="1" stop-color="#190D17" stop-opacity="0"/></radialGradient>
+<linearGradient id="blade" x2=".85" y2="1"><stop stop-color="#FFF3F5"/><stop offset=".2" stop-color="#FF8297"/><stop offset=".62" stop-color="#FF1744"/><stop offset="1" stop-color="#6A0929"/></linearGradient>
+<linearGradient id="platinum" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".62" stop-color="#F4F6FC"/><stop offset="1" stop-color="#ADB3C1"/></linearGradient>
+<pattern id="dust" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#888292" opacity=".32"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs>
+<style>
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+<rect x=".7" y=".7" width="358.6" height="127.6" rx="11" fill="url(#ground)" stroke="#47303D"/><path d="M1 22v85" fill="none" stroke="#FF1744" stroke-width="2" /><text x="16" y="27" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#FF7C98" letter-spacing="1.1">APPLIED ML</text><text x="16" y="62" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="650" fill="#F4F6FC" >Delhi temperature forecast</text><text x="16" y="99" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#B6BBC8" >Open repository</text><path d="M132 94h13m-4 -4 4 4 -4 4" fill="none" stroke="#00D9FF" stroke-width="1.5" /><g transform="translate(266,38) scale(.94)"><path d="M6 9v52h66" fill="none" stroke="#9D6279" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><path d="M8 43 16 32 24 47 32 37 40 19 48 34" fill="none" stroke="#FF5376" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M48 34 54 28 60 39 68 22 77 31" fill="none" stroke="#00D9FF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M48 10v47" fill="none" stroke="#695461" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/></g>
+</svg>

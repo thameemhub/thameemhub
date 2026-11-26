@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="82" viewBox="0 0 920 82" role="img">
+<title>Learning Now and Leading Next!</title>
+<defs>
+<linearGradient id="ground" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#16151F"/><stop offset=".55" stop-color="#0A0A10"/><stop offset="1" stop-color="#171019"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#BA1038" stop-opacity=".55"/><stop offset=".62" stop-color="#68102D" stop-opacity=".28"/><stop offset="1" stop-color="#190D17" stop-opacity="0"/></radialGradient>
+<linearGradient id="blade" x2=".85" y2="1"><stop stop-color="#FFF3F5"/><stop offset=".2" stop-color="#FF8297"/><stop offset=".62" stop-color="#FF1744"/><stop offset="1" stop-color="#6A0929"/></linearGradient>
+<linearGradient id="platinum" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".62" stop-color="#F4F6FC"/><stop offset="1" stop-color="#ADB3C1"/></linearGradient>
+<pattern id="dust" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#888292" opacity=".32"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+<clipPath id="scan-window"><circle r="160"/></clipPath>
+</defs>
+<style>
+@keyframes flow{to{stroke-dashoffset:-250}}
+@keyframes breathe{50%{opacity:.35}}
+@keyframes drift{50%{transform:translateY(-5px)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes sweep{0%{transform:translateY(-116px);opacity:0}16%{opacity:.24}72%{opacity:.14}84%,100%{transform:translateY(112px);opacity:0}}
+@keyframes particle{50%{transform:translate(6px,-9px);opacity:.32}}
+.scan{animation:sweep 13s ease-in-out infinite}
+.particle{animation:particle 9s ease-in-out infinite}
+.signal{stroke-dasharray:9 241;animation:flow 10s linear infinite}
+.light{animation:breathe 6s ease-in-out infinite}
+.floating{animation:drift 8s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+<rect width="920" height="82" rx="9" fill="url(#ground)"/><text x="28" y="49" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#F4F6FC" >Learning Now and Leading Next!</text><path d="M435 22H490l24 -15h150l24 15h160" fill="none" stroke="#673046" stroke-width="1" /><path d="M435 22H490l24 -15h150l24 15h160" fill="none" stroke="#FF6482" stroke-width="2" class="signal" pathLength="250"/><path d="M435 42H515l24 -15h125l24 15h140" fill="none" stroke="#673046" stroke-width="1" /><path d="M435 42H515l24 -15h125l24 15h140" fill="none" stroke="#FF6482" stroke-width="2" class="signal" pathLength="250"/><path d="M435 62H540l24 -15h100l24 15h120" fill="none" stroke="#673046" stroke-width="1" /><path d="M435 62H540l24 -15h100l24 15h120" fill="none" stroke="#FF6482" stroke-width="2" class="signal" pathLength="250"/><path d="M856 41l12 -7 12 7v14l-12 7 -12 -7z M856 41l12 7 12 -7 M868 48v14" fill="none" stroke="#00D9FF" stroke-width="1.5" />
+</svg>

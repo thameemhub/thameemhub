@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="86" viewBox="0 0 360 86" role="img">
+<title>Data science — pandas · NumPy · EDA · visualization</title>
+<defs>
+<linearGradient id="ground" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#16151F"/><stop offset=".55" stop-color="#0A0A10"/><stop offset="1" stop-color="#171019"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#BA1038" stop-opacity=".55"/><stop offset=".62" stop-color="#68102D" stop-opacity=".28"/><stop offset="1" stop-color="#190D17" stop-opacity="0"/></radialGradient>
+<linearGradient id="blade" x2=".85" y2="1"><stop stop-color="#FFF3F5"/><stop offset=".2" stop-color="#FF8297"/><stop offset=".62" stop-color="#FF1744"/><stop offset="1" stop-color="#6A0929"/></linearGradient>
+<linearGradient id="platinum" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".62" stop-color="#F4F6FC"/><stop offset="1" stop-color="#ADB3C1"/></linearGradient>
+<pattern id="dust" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#888292" opacity=".32"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs>
+<style>
+@keyframes flow{to{stroke-dashoffset:-250}}
+@keyframes breathe{50%{opacity:.35}}
+@keyframes drift{50%{transform:translateY(-5px)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+.signal{stroke-dasharray:9 241;animation:flow 10s linear infinite}
+.light{animation:breathe 6s ease-in-out infinite}
+.floating{animation:drift 8s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+<rect x=".7" y=".7" width="358.6" height="84.6" rx="11" fill="url(#ground)" stroke="#47303D"/><circle cx="34.00" cy="42.00" r="24" fill="#F4F6FC" /><svg x="17" y="25" width="34" height="34" viewBox="0 0 128 128"><path fill="#4DABCF" d="m55.012 26.006-21.38-10.789L10.154 26.93l21.969 11.027Zm9.808 4.951L87.241 42.28 63.982 53.955l-22-11.043Zm29.948-15.581 23.037 11.552L97.2 37.272 74.735 25.938ZM84.853 10.4 64.113 0 43.598 10.24 64.97 21.014ZM68.64 99.702V128l25.122-12.537-.023-28.31ZM93.727 77.27l-.028-28.012-25.06 12.458V89.74Zm30.158-5.246v28.41l-21.43 10.69-.017-28.279zm0-9.935V34.25l-21.47 10.673.016 28.068z"/><path fill="#4c75cf" d="m59.77 61.716-16.918-8.512V89.97s-20.7-44.033-22.612-47.99c-.246-.513-1.263-1.07-1.522-1.209-3.731-1.947-14.603-7.45-14.603-7.45v64.977l15.04 8.063V72.382s20.478 39.346 20.689 39.78c.214.429 2.257 4.57 4.459 6.028 2.92 1.939 15.458 9.477 15.458 9.477z" /></svg><text x="69" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="650" fill="#F4F6FC" >Data science</text><text x="69" y="62" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#B6BBC8" >pandas · NumPy · EDA · visualization</text><path d="M309 1h32" fill="none" stroke="#FF1744" stroke-width="2" class="light"/>
+</svg>

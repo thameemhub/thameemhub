@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="86" viewBox="0 0 360 86" role="img">
+<title>Machine learning — TensorFlow · PyTorch · scikit-learn</title>
+<defs>
+<linearGradient id="ground" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#16151F"/><stop offset=".55" stop-color="#0A0A10"/><stop offset="1" stop-color="#171019"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#BA1038" stop-opacity=".55"/><stop offset=".62" stop-color="#68102D" stop-opacity=".28"/><stop offset="1" stop-color="#190D17" stop-opacity="0"/></radialGradient>
+<linearGradient id="blade" x2=".85" y2="1"><stop stop-color="#FFF3F5"/><stop offset=".2" stop-color="#FF8297"/><stop offset=".62" stop-color="#FF1744"/><stop offset="1" stop-color="#6A0929"/></linearGradient>
+<linearGradient id="platinum" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".62" stop-color="#F4F6FC"/><stop offset="1" stop-color="#ADB3C1"/></linearGradient>
+<pattern id="dust" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#888292" opacity=".32"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs>
+<style>
+@keyframes flow{to{stroke-dashoffset:-250}}
+@keyframes breathe{50%{opacity:.35}}
+@keyframes drift{50%{transform:translateY(-5px)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+.signal{stroke-dasharray:9 241;animation:flow 10s linear infinite}
+.light{animation:breathe 6s ease-in-out infinite}
+.floating{animation:drift 8s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+<rect x=".7" y=".7" width="358.6" height="84.6" rx="11" fill="url(#ground)" stroke="#47303D"/><circle cx="34.00" cy="42.00" r="24" fill="#F4F6FC" /><svg x="17" y="25" width="34" height="34" viewBox="0 0 128 128"><path fill="#EE4C2C" d="M100.1 38.3l-9.2 9.2c15.1 15.1 15.1 39.4 0 54.3-15.1 15.1-39.4 15.1-54.3 0-15.1-15.1-15.1-39.4 0-54.3l24-24 3.4-3.4V2L27.8 38.2C7.7 58.3 7.7 90.8 27.8 111s52.6 20.1 72.4 0c20.1-20.2 20.1-52.5-.1-72.7z"/><circle fill="#EE4C2C" transform="rotate(-88.939 82.069 29.398) scale(.99997)" cx="82.1" cy="29.4" r="6.7"/></svg><text x="69" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="650" fill="#F4F6FC" >Machine learning</text><text x="69" y="62" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#B6BBC8" >TensorFlow · PyTorch · scikit-learn</text><path d="M309 1h32" fill="none" stroke="#FF1744" stroke-width="2" class="light"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="129" viewBox="0 0 360 129" role="img">
+<title>Face verification</title>
+<defs>
+<linearGradient id="ground" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#16151F"/><stop offset=".55" stop-color="#0A0A10"/><stop offset="1" stop-color="#171019"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#BA1038" stop-opacity=".55"/><stop offset=".62" stop-color="#68102D" stop-opacity=".28"/><stop offset="1" stop-color="#190D17" stop-opacity="0"/></radialGradient>
+<linearGradient id="blade" x2=".85" y2="1"><stop stop-color="#FFF3F5"/><stop offset=".2" stop-color="#FF8297"/><stop offset=".62" stop-color="#FF1744"/><stop offset="1" stop-color="#6A0929"/></linearGradient>
+<linearGradient id="platinum" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".62" stop-color="#F4F6FC"/><stop offset="1" stop-color="#ADB3C1"/></linearGradient>
+<pattern id="dust" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#888292" opacity=".32"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs>
+<style>
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+<rect x=".7" y=".7" width="358.6" height="127.6" rx="11" fill="url(#ground)" stroke="#47303D"/><path d="M1 22v85" fill="none" stroke="#FF1744" stroke-width="2" /><text x="16" y="27" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#FF7C98" letter-spacing="1.1">COMPUTER VISION</text><text x="16" y="62" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="650" fill="#F4F6FC" >Face verification</text><text x="16" y="99" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#B6BBC8" >Open repository</text><path d="M132 94h13m-4 -4 4 4 -4 4" fill="none" stroke="#00D9FF" stroke-width="1.5" /><g transform="translate(266,38) scale(.94)"><path d="M10 20V8h13m33 0h13v12m0 32v13H56m-32 0H11V52" fill="none" stroke="#00D9FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M26 18q13 -11 26 0l3 16 -6 15 -10 7 -11 -8 -5 -14z" fill="none" stroke="#EB5578" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M25 31l12 4 15 -4m-13 -12 -2 18 4 4m-10 4 14 1" fill="none" stroke="#C84C6B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><circle cx="28.00" cy="31.00" r="2" fill="#FFE1E7" /><circle cx="48.00" cy="31.00" r="2" fill="#FFE1E7" /><circle cx="40.00" cy="40.00" r="2" fill="#FFE1E7" /><circle cx="33.00" cy="46.00" r="2" fill="#FFE1E7" /><circle cx="44.00" cy="46.00" r="2" fill="#FFE1E7" /></g>
+</svg>
