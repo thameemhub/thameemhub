@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="302" viewBox="0 0 900 302" role="img"><title>Daily GitHub contributions shown as an isometric city</title>
 <rect width="900" height="302" rx="13" fill="#08090D"/>
 <text x="30" y="36" fill="#00D9FF" font-family="Consolas,monospace" font-weight="400" font-size="13">CONTRIBUTION TOPOGRAPHY</text>
-<text x="28" y="79" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="700" font-size="35">116 contributions</text>
-<text x="30" y="105" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">2025-11-27  /  2026-11-26</text>
-<g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="51.6,181.7 65.2,183.0 65.2,185.0 51.6,183.7" fill-opacity=".63"/><polygon points="65.2,183.0 73.8,177.9 73.8,179.9 65.2,185.0" fill-opacity=".85"/><polygon points="60.2,176.6 73.8,177.9 65.2,183.0 51.6,181.7"/></g>
+<text x="28" y="79" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="700" font-size="35">118 contributions</text>
+<text x="30" y="105" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">2025-11-28  /  2026-11-27</text>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="42.4,187.1 56.0,188.4 56.0,190.4 42.4,189.1" fill-opacity=".63"/><polygon points="56.0,188.4 64.6,183.3 64.6,185.3 56.0,190.4" fill-opacity=".85"/><polygon points="51.0,182.0 64.6,183.3 56.0,188.4 42.4,187.1"/></g>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="33.2,192.5 46.8,193.8 46.8,195.8 33.2,194.5" fill-opacity=".63"/><polygon points="46.8,193.8 55.4,188.7 55.4,190.7 46.8,195.8" fill-opacity=".85"/><polygon points="41.8,187.4 55.4,188.7 46.8,193.8 33.2,192.5"/></g>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="103.0,161.5 116.6,162.8 116.6,164.8 103.0,163.5" fill-opacity=".63"/><polygon points="116.6,162.8 125.2,157.7 125.2,159.7 116.6,164.8" fill-opacity=".85"/><polygon points="111.6,156.4 125.2,157.7 116.6,162.8 103.0,161.5"/></g>
@@ -367,6 +366,7 @@
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="838.4,238.3 852.0,239.6 852.0,241.6 838.4,240.3" fill-opacity=".63"/><polygon points="852.0,239.6 860.6,234.5 860.6,236.5 852.0,241.6" fill-opacity=".85"/><polygon points="847.0,233.2 860.6,234.5 852.0,239.6 838.4,238.3"/></g>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="829.2,243.7 842.8,245.0 842.8,247.0 829.2,245.7" fill-opacity=".63"/><polygon points="842.8,245.0 851.4,239.9 851.4,241.9 842.8,247.0" fill-opacity=".85"/><polygon points="837.8,238.6 851.4,239.9 842.8,245.0 829.2,243.7"/></g>
 <g fill="#FF6484" stroke="#242736" stroke-width=".45"><polygon points="820.0,174.1 833.6,175.4 833.6,252.4 820.0,251.1" fill-opacity=".63"/><polygon points="833.6,175.4 842.2,170.3 842.2,247.3 833.6,252.4" fill-opacity=".85"/><polygon points="828.6,169.0 842.2,170.3 833.6,175.4 820.0,174.1"/></g>
-<g fill="#711635" stroke="#242736" stroke-width=".45"><polygon points="810.8,214.9 824.4,216.2 824.4,257.8 810.8,256.5" fill-opacity=".63"/><polygon points="824.4,216.2 833.0,211.1 833.0,252.7 824.4,257.8" fill-opacity=".85"/><polygon points="819.4,209.8 833.0,211.1 824.4,216.2 810.8,214.9"/></g>
+<g fill="#AC1743" stroke="#242736" stroke-width=".45"><polygon points="810.8,196.5 824.4,197.8 824.4,257.8 810.8,256.5" fill-opacity=".63"/><polygon points="824.4,197.8 833.0,192.7 833.0,252.7 824.4,257.8" fill-opacity=".85"/><polygon points="819.4,191.4 833.0,192.7 824.4,197.8 810.8,196.5"/></g>
+<g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="801.6,259.9 815.2,261.2 815.2,263.2 801.6,261.9" fill-opacity=".63"/><polygon points="815.2,261.2 823.8,256.1 823.8,258.1 815.2,263.2" fill-opacity=".85"/><polygon points="810.2,254.8 823.8,256.1 815.2,261.2 801.6,259.9"/></g>
 <text x="30" y="284" fill="#A4ACBA" font-family="Arial,sans-serif" font-weight="400" font-size="13">One tower per day  /  height follows contribution count on a logarithmic scale</text>
 </svg>
