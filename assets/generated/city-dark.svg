@@ -2,8 +2,7 @@
 <rect width="900" height="302" rx="13" fill="#08090D"/>
 <text x="30" y="36" fill="#00D9FF" font-family="Consolas,monospace" font-weight="400" font-size="13">CONTRIBUTION TOPOGRAPHY</text>
 <text x="28" y="79" fill="#F4F6FC" font-family="Arial,sans-serif" font-weight="700" font-size="35">118 contributions</text>
-<text x="30" y="105" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">2025-11-28  /  2026-11-27</text>
-<g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="42.4,187.1 56.0,188.4 56.0,190.4 42.4,189.1" fill-opacity=".63"/><polygon points="56.0,188.4 64.6,183.3 64.6,185.3 56.0,190.4" fill-opacity=".85"/><polygon points="51.0,182.0 64.6,183.3 56.0,188.4 42.4,187.1"/></g>
+<text x="30" y="105" fill="#A4ACBA" font-family="Consolas,monospace" font-weight="400" font-size="15">2025-11-29  /  2026-11-28</text>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="33.2,192.5 46.8,193.8 46.8,195.8 33.2,194.5" fill-opacity=".63"/><polygon points="46.8,193.8 55.4,188.7 55.4,190.7 46.8,195.8" fill-opacity=".85"/><polygon points="41.8,187.4 55.4,188.7 46.8,193.8 33.2,192.5"/></g>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="103.0,161.5 116.6,162.8 116.6,164.8 103.0,163.5" fill-opacity=".63"/><polygon points="116.6,162.8 125.2,157.7 125.2,159.7 116.6,164.8" fill-opacity=".85"/><polygon points="111.6,156.4 125.2,157.7 116.6,162.8 103.0,161.5"/></g>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="93.8,166.9 107.4,168.2 107.4,170.2 93.8,168.9" fill-opacity=".63"/><polygon points="107.4,168.2 116.0,163.1 116.0,165.1 107.4,170.2" fill-opacity=".85"/><polygon points="102.4,161.8 116.0,163.1 107.4,168.2 93.8,166.9"/></g>
@@ -368,5 +367,6 @@
 <g fill="#FF6484" stroke="#242736" stroke-width=".45"><polygon points="820.0,174.1 833.6,175.4 833.6,252.4 820.0,251.1" fill-opacity=".63"/><polygon points="833.6,175.4 842.2,170.3 842.2,247.3 833.6,252.4" fill-opacity=".85"/><polygon points="828.6,169.0 842.2,170.3 833.6,175.4 820.0,174.1"/></g>
 <g fill="#AC1743" stroke="#242736" stroke-width=".45"><polygon points="810.8,196.5 824.4,197.8 824.4,257.8 810.8,256.5" fill-opacity=".63"/><polygon points="824.4,197.8 833.0,192.7 833.0,252.7 824.4,257.8" fill-opacity=".85"/><polygon points="819.4,191.4 833.0,192.7 824.4,197.8 810.8,196.5"/></g>
 <g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="801.6,259.9 815.2,261.2 815.2,263.2 801.6,261.9" fill-opacity=".63"/><polygon points="815.2,261.2 823.8,256.1 823.8,258.1 815.2,263.2" fill-opacity=".85"/><polygon points="810.2,254.8 823.8,256.1 815.2,261.2 801.6,259.9"/></g>
+<g fill="#20232E" stroke="#242736" stroke-width=".45"><polygon points="792.4,265.3 806.0,266.6 806.0,268.6 792.4,267.3" fill-opacity=".63"/><polygon points="806.0,266.6 814.6,261.5 814.6,263.5 806.0,268.6" fill-opacity=".85"/><polygon points="801.0,260.2 814.6,261.5 806.0,266.6 792.4,265.3"/></g>
 <text x="30" y="284" fill="#A4ACBA" font-family="Arial,sans-serif" font-weight="400" font-size="13">One tower per day  /  height follows contribution count on a logarithmic scale</text>
 </svg>
